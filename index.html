@@ -8,30 +8,30 @@
 
 	<!-- custom css link -->
 	<link rel="stylesheet" type="text/css" href="custom.css">
-	<title>test title</title>
+	<title>Mac Projects</title>
 </head>
 <body>
 	<!-- Start for the NavBar -->
-	<section>
+	<section id="home">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
+				<!-- <a class="navbar-brand" href="#">Navbar</a> -->
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link active" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Features</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Pricing</a>
+							<a class="nav-link" href="#projects">Projects</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+							<a class="nav-link" href="#contacts">Contacts</a>
 						</li>
 					</ul>
 				</div>
@@ -44,16 +44,16 @@
 	<section>
 		<!-- Jumbotron-banner is added for us to know the size of the jumbotron -->
 		<div class="jumbotron jumbotron-fluid" id="jumbotron-banner">
-			<div class="container">
-				<h1 class="display-4">Fluid jumbotron</h1>
-				<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+			<div class="container justify-content-center d-flex">
+				<h1 class="display-4">Sean Mark Mira</h1>
+				<p class="lead">Solving enterprise problems since 2009</p>
 			</div>
 		</div>
 	</section>
 	<!-- End of the Jumbotron -->
 
 	<!-- Start of about me section -->
-	<section>
+	<section id="about">
 		<!-- Jumbotron start -->
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
@@ -102,7 +102,7 @@
 
 
 	<!-- This starts the project information -->
-	<section>
+	<section id="projects">
 		<!-- start of jumbotron -->
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
@@ -159,7 +159,7 @@
 	<!-- End the project information -->
 	
 	<!-- Start of Contact Section -->
-	<section>
+	<section id="contacts">
 		<!-- start of jumbotron -->
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
@@ -171,7 +171,7 @@
 
 		<!-- start of form and map -->
 		<container class="m-5">
-			<div class="container bg-warning">
+			<div class="container">
 				<h1>More on Grid</h1>
 				<!-- What align-items-end is to align items to bottom. Or basehan mo sa bottom ang pag align -->
 				<!-- What align-self-end is to align CURRENT SELF to end-->
@@ -179,14 +179,14 @@
 				<div class="row align-items-center">
 					<!-- col-md-6 for breaking point at medium size -->
 					<!-- col-xl-3 puts the extra largest screen size to have  -->
-					<div class="col-md-6 bg-success">
+					<div class="col-md-6">
 						<!-- start of form -->
 						<form>
 							<div class="form-group">
-								<input class="form-control my-2" type="text" placeholder="Name">
-								<input type="email" class="form-control my-2" id="emailAddress" placeholder="name@example.com">
-								<input class="form-control my-2" type="text" placeholder="Contact Information">
-								<textarea class="form-control my-2" id="textAreaMessage" rows="5" placeholder="Message for Sean Mira"></textarea>
+								<input class="form-control my-2 border-top-0 border-right-0 border-left-0" type="text" placeholder="Name">
+								<input type="email" class="form-control my-2 border-top-0 border-right-0 border-left-0" id="emailAddress" placeholder="name@example.com">
+								<input class="form-control my-2 border-top-0 border-right-0 border-left-0" type="text" placeholder="Contact Information">
+								<textarea class="form-control my-2 border-top-0 border-right-0 border-left-0" id="textAreaMessage" rows="5" placeholder="Message for Sean Mira"></textarea>
 							</div>
 						</form>
 						<!-- end of form -->
