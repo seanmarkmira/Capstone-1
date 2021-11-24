@@ -1,0 +1,35 @@
+#jumbotron-banner{
+	background-color: #7a8aff;
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 20%;
+}
+
+/*.flex-wrapper{
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-around;
+	justify-content: space-between;
+}*/
+
+	/*flex direction column is the default*/
+	/*flex direction column-reverse can be done*/
+	/*flex direction row-reverse can also be done*/
+	/*flex-direction: column-reverse;*/
+
+	/*flex-wrap: wrap; is used in the bootstrap process*/
+	/*flex-wrap: wrap-reverse; is also possible*/
+
+
+	/*justify-content: flex-start; this is the default value which is the left part of the screen*/
+	/*justify-content: flex-end; justifies to the left*/
+
+	/*justify-content: space-around allows you to add space around the element. Other examples below: */
+	
+/*.flex-wrapper > div {
+	background-color: red;
+	color: white;
+	padding: 25px;
+	margin:  10px;
+	font-size: 20px;
+}*/
