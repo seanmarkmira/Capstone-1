@@ -13,88 +13,91 @@
 <body>
 	<!-- Start for the NavBar -->
 	<section id="home">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<!-- <a class="navbar-brand" href="#">Navbar</a> -->
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" href="#home">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contacts">Contacts</a>
-						</li>
-					</ul>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light custom-navbar p-4 fixed-top">
+				<div class="container-fluid">
+					<a class="navbar-brand text-bold" href="#">Mac Consultancy</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#projects">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contacts">Contacts</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+		<!-- End for the NavBar -->
+
+		<!-- Start of the Jumbotron -->
+		<section>
+			<!-- Jumbotron-banner is added for us to know the size of the jumbotron -->
+			<div class="jumbotron jumbotron-fluid jumbotron-welcome darken">
+				<div class="container justify-content-center d-flex">
+					<h1 class="display-5 pt-3 title">"Delivered technology to your business"</h1>
+					<p class="lead"></p>
 				</div>
 			</div>
-		</nav>
-	</section>
-	<!-- End for the NavBar -->
-
-	<!-- Start of the Jumbotron -->
-	<section>
-		<!-- Jumbotron-banner is added for us to know the size of the jumbotron -->
-		<div class="jumbotron jumbotron-fluid" id="jumbotron-banner">
-			<div class="container justify-content-center d-flex">
-				<h1 class="display-4">Sean Mark Mira</h1>
-				<p class="lead"></p>
-			</div>
-		</div>
+		</header>
 	</section>
 	<!-- End of the Jumbotron -->
 
 	<!-- Start of about me section -->
-	<section id="about">
+
+	<section>
+		<div id="about"></div>
 		<!-- Jumbotron start -->
-		<div class="jumbotron jumbotron-fluid">
+		<div class="jumbotron jumbotron-fluid about-me-bg">
 			<div class="container">
-				<h1 class="display-4 d-flex justify-content-center">Fluid jumbotron</h1>
-				<p class="lead d-flex justify-content-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+				<h1 class="display-4 d-flex justify-content-center text-bold">About Me</h1>
+				<p class="lead d-flex justify-content-center text-center">Enthusiastic in advising and helping customers to utilize enterprise solutions for their business needs. A trusted 
+					advisor to key companies in the Philippines focusing on data management, governance, and analytics. I am 
+				currently looking into gaining experience in consultancy to empathize more with the client’s challenges.</p>
 			</div>
-		</div>
+		
 		<!-- Jumbotron end -->
 
 		<!-- This start the container left side -->
 		<div class="container">
-			<h1>More on Grid</h1>
 			<!-- What align-items-end is to align items to bottom. Or basehan mo sa bottom ang pag align -->
 			<!-- What align-self-end is to align CURRENT SELF to end-->
 			<!-- What align-items-start is to align items to start-->
 			<div class="row align-items-center">
 				<!-- col-md-6 for breaking point at medium size -->
 				<!-- col-xl-3 puts the extra largest screen size to have  -->
-				<div class="col-md-3 col-xl-3">
-					<p class="alert alert-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<div class="col-md-3 col-xl-3 alert alert-primary">
+					<p class="">We will put the different work experience here. </p>
+					<ul>
+						<li>SAP - Presales Engineer</li>
+						<li>Storehub - Business Consultancy</li>
+						<li>Wela School Systems - Cofounder</li>
+						<li>Concentrix PH - IT Specialist</li>
+
+					</ul>
+					
 				</div>
 
 				<div class="col-md-3 col-xl-3">
-					<p class="alert alert-secondary">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="alert alert-secondary">We will put all of the awards, Education, Certificates, and projects.</p>
 				</div>
-
 				<div class="col-md-6 col-xl-3">
-					<p class="alert alert-danger"><img src="placeholder.jpg" alt="..." class="img-thumbnail"></p>
+					<p class="alert"><img src="./Images/SeanMira.jpg" alt="..." class="img-thumbnail"></p>
 				</div>
 			</div>
+		</div>
 		</div>
 		<!-- This end the containter left side -->
 	</section>
@@ -104,16 +107,11 @@
 	<!-- This starts the project information -->
 	<section id="projects">
 		<!-- start of jumbotron -->
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h1 class="display-4 d-flex justify-content-center">Fluid jumbotron</h1>
-				<p class="lead d-flex justify-content-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-			</div>
-		</div>
+		<div class="jumbotron jumbotron-fluid jumbotron-projects darken-project">
+		
 		<!-- end of jumbotron -->
 
 		<div class="container">
-			<h1>More on Grid</h1>
 			<!-- What align-items-end is to align items to bottom. Or basehan mo sa bottom ang pag align -->
 			<!-- What align-self-end is to align CURRENT SELF to end-->
 			<!-- What align-items-start is to align items to start-->
@@ -154,6 +152,7 @@
 					</p>
 				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 	<!-- End the project information -->

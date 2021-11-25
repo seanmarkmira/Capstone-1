@@ -1,9 +1,112 @@
-#jumbotron-banner{
+*{
+	font-family: oregon;
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+.custom-navbar{
+	background-color: #eef4ed;
+}
+/*#jumbotron-banner{
 	background-color: #7a8aff;
+	background-color: #13315c;
 	color: #fff;
 	padding-top: 5%;
-	padding-bottom: 25%;
+	padding-bottom: 37%;
+}*/
+
+@font-face {
+	font-family: oregon;
+	src: url(OregonNonBold.ttf);
+	font-family: oregon-bold;
+	src: url(OregonBold.ttf);
 }
+
+.text-bold{
+	font-family: oregon-bold;
+	font-size: 1.5rem;
+}
+
+/*changes in the home menu*/
+.jumbotron-welcome {
+	background-image: url("./images/bridgegap.jpg");
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 35%;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.darken {
+	background-image: 
+	linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.6)
+	),
+	url("./images/bridgegap.jpg");
+}
+/*changes in the home menu*/
+
+/*changes in the navbar*/
+.navbar-nav li a{
+	color: #6c757d !important;
+	font-size: 1rem !important;
+	padding-right: 20px !important;
+	float: right;
+	/*justify-content:space-evenly;*/
+}
+/*changes in the navbar*/
+
+
+/*changes in the about me section*/
+.about-me-bg{
+	background-color:#ebebeb;
+	/*color: #eef4ed;*/
+}
+
+/*Carousell Test*/
+.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 100px;
+}
+.carousel-caption{
+  color: #fff;
+  top: 50%;
+}
+/*Carousell Test*/
+
+/*changes in the about me section*/
+
+/*changes in the projects section*/
+.jumbotron-projects{
+	background-image: url("./images/test1.jpeg");
+	background-size: cover;
+	padding-top: 0%;
+	padding-bottom: 35%;
+}
+
+.darken-project {
+	background-image: 
+	linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.6)
+	),
+	url("./images/test1.jpeg");
+}
+/*changes in the projects section*/
 
 /*.flex-wrapper{
 	display: flex;
@@ -12,20 +115,20 @@
 	justify-content: space-between;
 }*/
 
-	/*flex direction column is the default*/
-	/*flex direction column-reverse can be done*/
-	/*flex direction row-reverse can also be done*/
-	/*flex-direction: column-reverse;*/
+/*flex direction column is the default*/
+/*flex direction column-reverse can be done*/
+/*flex direction row-reverse can also be done*/
+/*flex-direction: column-reverse;*/
 
-	/*flex-wrap: wrap; is used in the bootstrap process*/
-	/*flex-wrap: wrap-reverse; is also possible*/
+/*flex-wrap: wrap; is used in the bootstrap process*/
+/*flex-wrap: wrap-reverse; is also possible*/
 
 
-	/*justify-content: flex-start; this is the default value which is the left part of the screen*/
-	/*justify-content: flex-end; justifies to the left*/
+/*justify-content: flex-start; this is the default value which is the left part of the screen*/
+/*justify-content: flex-end; justifies to the left*/
 
-	/*justify-content: space-around allows you to add space around the element. Other examples below: */
-	
+/*justify-content: space-around allows you to add space around the element. Other examples below: */
+
 /*.flex-wrapper > div {
 	background-color: red;
 	color: white;
