@@ -88,17 +88,17 @@ td{
 }*/
 
 .title {
-	/*position: absolute;
-	padding-top: 10px	;*/
-	/*margin: 0 auto;*/
-	/*transform: translate(-50%, -50%);*/
 	color: white;
-	/*display: flex;*/
-	/*flex-flow: column nowrap;*/
-	/*justify-content: center;*/
 	align-items: center;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.75);
+	/*display: flex;*/
+	/*flex-flow: column nowrap;*/
+	/*justify-content: center;*/
+		/*position: absolute;
+	padding-top: 10px	;*/
+	/*margin: 0 auto;*/
+	/*transform: translate(-50%, -50%);*/
 }
 
 .darken {
@@ -448,8 +448,24 @@ td{
 
 /*when hover show underline*/
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
 /*End of Footer CSS*/
 
+/*test start*/
+.test {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: white;
+	padding-right: 1%;
+}
+
+.test:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+/*test end*/
 
 /*start test make input box transparent*/
 
