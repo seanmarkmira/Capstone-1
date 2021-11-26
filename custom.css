@@ -2,9 +2,39 @@
 	font-family: oregon;
 }
 img {
-    max-width:100%;
-    height:auto;
+	max-width:auto;
+	max-height:auto;
 }
+
+ul {
+	list-style-type: none;
+}
+
+td{
+	display:list-item;
+	list-style:none;
+}
+
+#ending-image{
+	/*background-image: url("./images/Company Project BG.jpeg");*/
+	background-repeat: no-repeat;
+	/*background-color: #cccccc;*/
+}
+
+.darken-ending-image {
+	background-image: 
+	linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0.0),
+		rgba(0, 0, 0.0, 1)
+	),
+	url("./images/Company Project BG.jpeg");
+}
+
+#padding-aboutme-education{
+	padding-bottom: 3%
+}
+
 .custom-navbar{
 	background-color: #eef4ed;
 }
@@ -25,6 +55,11 @@ img {
 
 .text-bold{
 	font-family: oregon-bold;
+	font-size: 2rem;
+}
+
+.text-bold-workExp{
+	font-family: oregon-bold;
 	font-size: 1.5rem;
 }
 
@@ -34,14 +69,15 @@ img {
 	background-size: cover;
 	padding-top: 10%;
 	padding-bottom: 35%;
+	position: default;
 }
 
 .title {
-	position: absolute;
+	/*position: absolute;*/
 	top: 50%;
 	left: 50%;
 	margin: 0;
-	transform: translate(-50%, -50%);
+	/*transform: translate(-50%, -50%);*/
 	color: white;
 	text-align: center;
 }
@@ -76,17 +112,15 @@ img {
 
 /*Carousell Test*/
 .carousel{
-  margin-top: 50px;
+	margin-top: 50px;
 }
 .carousel-inner{
-  height: 100px;
+	height: 100px;
 }
 .carousel-caption{
-  color: #fff;
-  top: 50%;
+	color: #fff;
+	top: 50%;
 }
-/*Carousell Test*/
-
 /*changes in the about me section*/
 
 /*changes in the projects section*/
@@ -94,7 +128,7 @@ img {
 	background-image: url("./images/test1.jpeg");
 	background-size: cover;
 	padding-top: 0%;
-	padding-bottom: 35%;
+	padding-bottom: 20%;
 }
 
 .darken-project {
@@ -106,7 +140,282 @@ img {
 	),
 	url("./images/test1.jpeg");
 }
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.test-items { 
+	font-family: 'Open Sans', 'sans-serif';
+	color: #cecece;
+	background: dark;
+	overflow: hidden;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+	position: default;
+	display: block;
+	top: 2em;
+	text-align: center;
+
+	width: 100%;
+
+	font-size: 2em;
+
+	animation-duration: 15s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+	8.3%,25% { left: 0%; opacity: 1; }
+	33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+	41.63%, 58.29% { left: 0%; opacity: 1; }
+	66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+	74.96%, 91.62% { left: 0%; opacity: 1; }
+	100% { left: 110%; opacity: 0; }
+}
+
+
+/*slider for education, skills and awards*/
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+/*#body-carousell {
+    font-family: sans-serif;
+    font-size: 11px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 48px;
+    color: #aaa;
+    background-color: #f5f5f5;
+}*/
+
+
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#carousel, #navigation {
+	flex: initial;
+	display: block;
+}
+
+#carousel {
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.p-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.4s ease-in-out;
+}
+
+#button_a:checked ~ #carousel .p-wrapper {
+	-webkit-transform: translateY(0);
+	transform: translateY(0); 
+}
+
+#button_b:checked ~ #carousel .p-wrapper {
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%); 
+}
+
+#button_c:checked ~ #carousel .p-wrapper {
+	-webkit-transform: translateY(-200%);
+	transform: translateY(-200%); 
+}
+
+
+[class^="panel_"] {
+	overflow: auto;
+	position: relative;
+	width: inherit;
+	height: inherit;
+	padding: 48px;
+}
+
+#navigation {
+	margin-left: 24px;
+}
+
+[class^="label_"] {
+	display: block;
+	cursor: pointer;
+	margin: 8px 0;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 4px;
+	color: #aaa;
+	background-color: #fff;
+	transition: all 0.3s ease;
+}
+
+[class^="label_"]:hover {
+	color: #444;
+	background-color: #ffeed9;
+}
+
+#button_a:checked ~ #navigation .label_a,
+#button_b:checked ~ #navigation .label_b,
+#button_c:checked ~ #navigation .label_c,
+#button_d:checked ~ #navigation .label_d {
+	cursor: default;
+	color: #fff;
+	background-color: #222;
+}
+
+/*slider for education, skills, and awards*/
 /*changes in the projects section*/
+
+
+/*Start Project Information Overlay*/
+.image{
+	/*check if we can absolute*/
+	position: relative;
+	/*change this overlay positioning*/
+	width: 500px;
+}
+
+/*This is for the image itself*/
+/*this is a child of .image, any width will be taken of by % of width or height*/
+.image__img{
+	display: block;
+	/*this is to make sure that the width in the image, 400px is taken as a whole*/
+	width: 100%;
+}
+
+/*this is a child of .image, any width will be taken of by % of width or height*/
+.image__overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:  rgba(0,0,0,0.6);
+	/*font-family: ;*/
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*this will hide the overlay*/
+	opacity: 0;
+	/*this will have an 'animation change'*/
+	transition: opacity .50s;
+}
+
+.image__overlay:hover{
+	opacity: 1;
+}
+
+/*this give an animation of changing all of the child of the image overlay from botton to top*/
+/*Targetting description and title*/
+.image__overlay > * {
+	/*when hover get the text goes down*/
+	transform:  translateY(20px);
+	transition:  transform 0.50s;
+}
+
+.image__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.image__title{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.image__description{
+	font-size: 1.25em;
+	margin-top: 2.5em;
+}
+
+.flex-wrapper{
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: space-around;
+	/*justify-content: space-between;*/
+}
+
+
+/*Start of Footer CSS*/
+/*box of footer*/
+.footer-distributed {
+  background-color: #292c2f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding:10px 90px;
+}
+
+/*contents of footer left*/
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+/*footer links href*/
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  padding-right: 1%;
+}
+
+/*when hover show underline*/
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+/*End of Footer CSS*/
+
+
+/*start test make input box transparent*/
+
+
+/*end test make input box transparent*/
+/*.bg-projects-ERP{
+	background-color: #8da9c4;
+}*/
+/*End Project Information Overlay*/
+
 
 /*.flex-wrapper{
 	display: flex;
