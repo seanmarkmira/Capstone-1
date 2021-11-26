@@ -14,13 +14,13 @@
 	<!-- Start for the NavBar -->
 	<section id="home">
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light custom-navbar p-4 fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-light custom-navbar p-1 fixed-top">
 				<div class="container-fluid">
-					<a class="navbar-brand text-bold" href="#">McTech</a>
+					<a class="navbar-brand text-bold" href="#home">McTech</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+					<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 						<ul class="navbar-nav ms-auto">
 							<li class="nav-item">
 								<a class="nav-link" href="#home">Home</a>
@@ -29,7 +29,7 @@
 								<a class="nav-link" href="#about">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#projects">Projects</a>
+								<a class="nav-link" href="#projects_navigation">Projects</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#contacts">Contacts</a>
@@ -37,26 +37,32 @@
 						</ul>
 					</div>
 				</div>
+
 			</nav>
 		</section>
+
 		<!-- End for the NavBar -->
 
 		<!-- Start of the Jumbotron -->
+
 		<section>
 			<!-- Jumbotron-banner is added for us to know the size of the jumbotron -->
-			<div class="jumbotron jumbotron-fluid jumbotron-welcome darken">
-				<div class="container justify-content-center d-flex">
-					<h1 class="display-5 pt-3 title">"Delivered technology to your business"</h1>
-					<p class="lead"></p>
+			<div class="jumbotron  jumbotron-welcome darken">
+				<div class="container justify-content-center">
+					<h1 class="display-2 title">Building Customized and Efficient Technology in Asia and Beyond</h1>
+					<p class="lead title">Find out how we fit solutions for your business needs</p>
+					<!-- <button class="title">Contact</button> -->
+
 				</div>
 			</div>
 		</header>
 	</section>
+	<div id="about"></div>
+
 	<!-- End of the Jumbotron -->
 
 	<!-- Start of about me section first part-->
-	<section class=" about-me-bg">
-		<div id="about"></div>
+	<section class="about-me-bg p-5">
 		<div class="container">
 			<!-- What align-items-end is to align items to bottom. Or basehan mo sa bottom ang pag align -->
 			<!-- What align-self-end is to align CURRENT SELF to end-->
@@ -87,8 +93,6 @@
 
 		<!-- start of about me section 2nd part -->
 		<section class="about-me-bg">
-			<div id="about"></div>
-
 			<div class="container">
 				<!-- What align-items-end is to align items to bottom. Or basehan mo sa bottom ang pag align -->
 				<!-- What align-self-end is to align CURRENT SELF to end-->
@@ -177,14 +181,16 @@
 
 
 								<div id="navigation">
+
 									<label for="button_a" class="label_a"> <span></span> </label>
 									<label for="button_b" class="label_b"> <span></span> </label>
 									<label for="button_c" class="label_c"> <span></span> </label>
 									<!-- <label for="button_d" class="label_d"> <span></span> </label> -->
-								</div> <!-- // #navigation -->               
+								</div> <!-- // #navigation -->  
+
+
 							</div> <!-- // #container -->
 							<!-- Education, skills, and achievements end -->
-							
 						</div>
 					</div>
 				</div>
@@ -192,6 +198,7 @@
 
 			<!-- end of about me section 2nd part -->
 			<!-- test start project information -->
+			<div id="projects_navigation"></div>
 			<div id="ending-image" class="darken-ending-image">
 				<div class="flex-wrapper bg-projects-ERP">
 					<div class="image">
@@ -294,6 +301,7 @@
 									<input class="form-control my-2 border-top-0 border-right-0 border-left-0" type="text" placeholder="Contact Information">
 									<textarea class="form-control my-2 border-top-0 border-right-0 border-left-0" id="textAreaMessage" rows="5" placeholder="Message for Sean Mira"></textarea>
 								</div>
+								<a href="#" class="myButton">Submit</a>
 							</form>
 							<!-- end of form -->
 						</div>

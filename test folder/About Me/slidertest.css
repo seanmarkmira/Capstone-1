@@ -1,3 +1,5 @@
+
+/*Start of Footer CSS*/
 /*box of footer*/
 .footer-distributed {
   background-color: #292c2f;
@@ -26,3 +28,4 @@
 
 /*when hover show underline*/
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+/*End of Footer CSS*/
