@@ -15,6 +15,11 @@ td{
 	list-style:none;
 }
 
+.font-style-awards{
+	text-decoration: underline;
+	font-size: 1.2rem;
+}
+
 #ending-image{
 	/*background-image: url("./images/Company Project BG.jpeg");*/
 	background-repeat: no-repeat;
