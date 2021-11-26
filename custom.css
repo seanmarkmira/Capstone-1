@@ -16,6 +16,10 @@ td{
 	list-style:none;
 }
 
+.testtest{
+	display: flex;
+	flex-direction: column;
+}
 .font-style-awards{
 	text-decoration: underline;
 	font-size: 1.2rem;
