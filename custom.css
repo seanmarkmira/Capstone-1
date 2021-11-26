@@ -88,17 +88,17 @@ td{
 }*/
 
 .title {
-	background: rgba(0, 0, 0, 0.75);
 	/*position: absolute;
 	padding-top: 10px	;*/
 	/*margin: 0 auto;*/
 	/*transform: translate(-50%, -50%);*/
 	color: white;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
+	/*display: flex;*/
+	/*flex-flow: column nowrap;*/
+	/*justify-content: center;*/
 	align-items: center;
 	text-align: center;
+	background: rgba(0, 0, 0, 0.75);
 }
 
 .darken {
@@ -239,7 +239,7 @@ td{
 	position:relative;
 	top:1px;
 }
-	
+
 /*button end*/
 
 /*slider for education, skills and awards*/
