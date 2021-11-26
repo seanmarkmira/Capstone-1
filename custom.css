@@ -28,7 +28,7 @@ td{
 		rgba(0, 0, 0, 0.0),
 		rgba(0, 0, 0.0, 1)
 	),
-	url("./images/Company Project BG.jpeg");
+	url("./Images/Company Project BG.jpeg");
 }
 
 #padding-aboutme-education{
@@ -65,7 +65,7 @@ td{
 
 /*changes in the home menu*/
 .jumbotron-welcome {
-	background-image: url("./images/bridgegap.jpg");
+	background-image: url("./Images/bridgegap.jpg");
 	background-size: cover;
 	padding-top: 10%;
 	padding-bottom: 35%;
@@ -73,10 +73,9 @@ td{
 }
 
 .title {
-	/*position: absolute;*/
-	top: 50%;
-	left: 50%;
-	margin: 0;
+	position: absolute;
+	padding-top: 10px	;
+	/*margin: 0 auto;*/
 	/*transform: translate(-50%, -50%);*/
 	color: white;
 	text-align: center;
@@ -89,7 +88,7 @@ td{
 		rgba(0, 0, 0, 0),
 		rgba(0, 0, 0, 0.6)
 	),
-	url("./images/bridgegap.jpg");
+	url("./Images/bridgegap.jpg");
 }
 /*changes in the home menu*/
 
@@ -125,7 +124,7 @@ td{
 
 /*changes in the projects section*/
 .jumbotron-projects{
-	background-image: url("./images/test1.jpeg");
+	background-image: url("./Images/test1.jpeg");
 	background-size: cover;
 	padding-top: 0%;
 	padding-bottom: 20%;
@@ -138,7 +137,7 @@ td{
 		rgba(0, 0, 0, 0),
 		rgba(0, 0, 0, 0.6)
 	),
-	url("./images/test1.jpeg");
+	url("./Images/test1.jpeg");
 }
 
 
@@ -358,13 +357,13 @@ td{
 }
 
 .image__title{
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
 .image__description{
-	font-size: 1.25em;
-	margin-top: 2.5em;
+	font-size: 1em;
+	margin-top: .5em;
 }
 
 .flex-wrapper{
